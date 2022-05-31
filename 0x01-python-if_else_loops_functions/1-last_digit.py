@@ -8,16 +8,16 @@ num3 = num2 % 100
 num4 = (num3 % 10)
 
 if number * -1 == abs_num:
-        num4 = num4 * -1
+    num4 = num4 * -1
 
 if num4 > 5:
     print("Last digit of %d" %number + " is %d " %num4
-        +"and is greater than 5")
+          + "and is greater than 5")
 
 elif num4 < 6 and num4 != 0:
     print("Last digit of %d" %number + " is %d " %num4
-         + "and is less than 6 and not 0")
+          + "and is less than 6 and not 0")
 
 else:
     print("Last digit of %d" %number + " is %d " %num4 +
-        "and is 0")
+          "and is 0")
