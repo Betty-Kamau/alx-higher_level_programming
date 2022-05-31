@@ -1,12 +1,10 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-print(number)
+
 abs_num = abs(number)
 num2 = abs_num % 1000
-print(num2)
 num3 = num2 % 100
-print(num3)
 num4 = (num3 % 10)
 
 if number * -1 == abs_num:
